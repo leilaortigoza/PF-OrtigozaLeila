@@ -1,35 +1,10 @@
-* {
-    margin: 0;
-    list-style: none;
-    box-sizing: border-box;
-    scroll-behavior: smooth; /*SUAVIZA EL SCROLL*/
-    user-select: none;    /*IMPEDIR LA SELECCIÓN DE TEXTO PARA EL USR*/
-    
-}
-/*TITULO PRINCIPAL*/
-.c1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-align: center;
-    color: rgb(255, 53, 205);
-}
-/*SUBTITULO DEL NAV*/
-a:link , a:visited , a:active{
-    color: white;
-    text-decoration: none;
-    transition: .5s;
-}
+/*IMPORTS*/
+/*IMPORTS RESETEO CSS*/
 
-a:hover {
-    background-color: rgb(255, 53, 205);
+@import " reseteo-css";
+//IMPORT TITULO Y LOGO
+@import "encabezado-css";
 
-}
-/*TAMAÑO DEL LOGO COLIBRI*/
-.logo-m img {
-    width: 50px;
-    height: 50px;
-    
-}
 
 /*///////////////*HEADER////////////////////////////////////////////////////////*/
 .header-nav-ul-li_a {
@@ -78,7 +53,7 @@ body main{
 
 }
 
- /*PAGINA SECCION*/  <!--ARTÍCUULO PRINCIPAL IMAGEN/CARACTERÍSTICAS PAGINA DE INDEX-->
+ /*PAGINA SECCION*/  /*-ARTÍCUULO PRINCIPAL IMAGEN/CARACTERÍSTICAS PAGINA DE INDEX*/
  .seccion-2
  .seccion-2 p {
     text-align: justify;

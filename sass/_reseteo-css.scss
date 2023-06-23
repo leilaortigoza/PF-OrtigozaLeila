@@ -1,0 +1,17 @@
+/*FORMATEO DE ESTILO*/
+
+* {
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth; /*SUAVIZA EL SCROLL*/
+    user-select: none;    /*IMPEDIR LA SELECCIÓN DE TEXTO PARA EL USR*/
+    
+}
+
+/*SUBTITULO DEL NAV*/
+a:link , a:visited , a:active{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
