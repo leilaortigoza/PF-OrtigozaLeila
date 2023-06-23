@@ -77,18 +77,18 @@ body main{
 
 }
 
- /*PAGINA SECCION*/
+ /*PAGINA SECCION*/  <!--ARTÍCUULO PRINCIPAL IMAGEN/CARACTERÍSTICAS PAGINA DE INDEX-->
  .seccion-2
  .seccion-2 p {
     text-align: justify;
 
  }
-/*SUBTITULO CARACTERISTICAS*/
+/*SUBTITULO CARACTERISTICAS INDEX PARTE DE BODY-MAIN*/
  .seccion-2 h2{
     color: rgb(6, 6, 6);
 
  }
- .caracteristicas1{
+ .caracteristicas1 {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
  }
@@ -141,6 +141,7 @@ body{
     width: 300px;
     height: 300px;  
 }
+/*/<!--CAJA ABARCA A TODAS LAS GRILLAS CAMBIA LA FORMA DEL TITULO INTERIOR-->/*/
 .caja{
    
     border: 4x solid rgb(0, 0, 0);
