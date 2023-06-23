@@ -1,0 +1,28 @@
+/*///////////////*HEADER////////////////////////////////////////////////////////*/
+.header-nav-ul-li_a {
+
+    font-size: 20px;
+    color: rgb(53, 0, 110);
+    margin-left: 30px;
+    border-radius: 5px;
+}
+    
+.header{
+    padding: 0 20px 0 20px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgb(0, 0, 0);
+    border-radius: 0 0 10px 10px;
+    border: 1px solid black; 
+}
+
+
+.header-nav-ul_li {
+    display: inline-block;
+}

@@ -1,0 +1,54 @@
+
+/*********************** INSTRUCTORADO***************************************************/
+.subtitulo-instructorado{
+    display: flex;
+    background-color: rgb(74, 167, 248);
+    padding: 20px;
+    justify-content: center;
+}
+.card-title{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+
+}
+
+.body-ins  .main-ins{
+    
+    padding: 150px;
+    margin: 10px;
+  
+}
+   
+.gris-oscuro{
+    background-color:rgb(53, 136, 220);
+    box-sizing: border-box;
+    padding: 30px;
+    
+}
+.titulo3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 13, 85);
+}
+.subtitulo4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card22{
+ position: relative;
+ top: 20px;
+ left: 20px;
+ 
+}
+.subtitulo-programa{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 13, 85);
+text-decoration: underline;
+}
+.texto-programa{
+    padding: 25px;
+  justify-self: unset;
+}
