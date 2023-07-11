@@ -20,7 +20,7 @@ a:link, a:visited, a:active {
 /*TITULO PRINCIPAL*/
 .c1 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
+
   text-align: center;
   color: rgb(255, 53, 205);
 }
@@ -103,7 +103,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-
+.lista-albumes:hover > .contenedor-desc {
+  display:block;
+}
+#btn-cerrar:active > .card22 {
+  display: none;
+} 
 /*PAGINA GRIILAS- IMAGENES*/
 .contenedor-grilla {
   padding: 500px;
@@ -248,7 +253,10 @@ body {
   padding: 25px;
   justify-self: unset;
 }
-
+article:hover , #texto-instructorado:hover, .row:hover{
+    color: rgb(255, 251, 251);
+    transition: 0.5s;
+}
 /*******************************FOOTER***********************************************/
 footer {
   backdrop-filter: blur(16px) saturate(176%);
